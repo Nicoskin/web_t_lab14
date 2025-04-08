@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="resume">
+    <h1 contenteditable="true" class="editable">Пушница Владимир Алексеевич</h1>
+    <h2 contenteditable="true" class="editable">Должность: программист</h2>
+    <p contenteditable="true" class="editable">Студент 4 курса</p>
+    <p contenteditable="true" class="editable">Опыт работы: год+</p>
+
+    <button id="downloadBtn" class="ripple">Скачать PDF</button>
+  </div>
+
+  <!-- Подключаем библиотеку html2canvas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Подключаем библиотеку jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
